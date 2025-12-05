@@ -16,22 +16,6 @@ Backend en Rust pour gérer les sessions de livraison, la synchronisation offlin
 - **PostgreSQL** + PostGIS (pour les coordonnées)
 - **Redis** (cache des sessions)
 
-## Commandes
-
-```bash
-# Développement
-cargo run
-
-# Build pour production
-cargo build --release
-
-# Tests
-cargo test
-
-# Linting
-cargo clippy
-```
-
 ## Structure
 
 ```
